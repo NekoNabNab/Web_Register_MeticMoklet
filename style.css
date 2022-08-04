@@ -1,0 +1,376 @@
+
+    div{
+        width   : 100%;
+        margin  : 0 auto;
+    }
+
+    .bgcolor{ 
+        width: 1440px;
+        position: absolute;
+        height: 57px;
+        left: 0px;
+        top: 0px;
+        
+        background: #E04E4E;
+    }
+
+    .bgimage{ 
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        text-align: center;
+        width: 190px;
+        height: 40.42px;
+        left: 73px;
+        top: 7.86px;
+        border-radius: 20px;
+    }
+
+    .hometext{
+        position: absolute;
+        width: 581px;
+        height: 340px;
+        left: 86px;
+        top: 100px;
+
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 85px;
+        
+        color: #000000;
+    }
+
+    .BerandaBar{
+        position: absolute;
+        background: #72262D;
+        color: white;
+        text-align: center;
+        font-size: 17px;
+        width: 142px;
+        height: 42px;
+        left: 747px;
+        top: 8px;
+        
+        border-radius: 30px;
+        border: 0px;
+    }
+
+    .DaftarBar{
+        position: absolute;
+        color: white;
+        text-align: center;
+        font-size: 17px;
+        width: 142px;
+        height: 42px;
+        left: 970px;
+        top: 8px;
+        
+        border-radius: 30px;
+        background-color: transparent;
+        border: 2px solid #72262D;
+    }
+
+    .KelasBar{
+        position: absolute;
+        color: white;
+        text-align: center;
+        font-size: 17px;
+        width: 142px;
+        height: 42px;
+        left: 1192px;
+        top: 8px;
+        
+        border-radius: 30px;
+        background-color: transparent;
+        border: 2px solid #72262D;
+    }
+
+    .DaftarHome{
+        position: absolute;
+        background: #72262D;
+        color: white;
+        text-align: center;
+
+        font-size: 17px;
+        width: 166px;
+        height: 50px;
+        left: 83px;
+        top: 550px;
+        
+        border-radius: 20px;
+        border: 0px;
+    }
+
+    .ImageHome{
+        position: absolute;
+        width: 780px;
+        height: 542px;
+        left: 606px;
+        top: 144px;
+    }
+
+    .LineHome{
+        position: absolute;
+        width: 1289px;
+        height: 0px;
+        left: 76px;
+        top: 700px;
+        background-color: #72262D;
+        border: 2px solid #72262D;
+    }
+    
+    .HeaderForm{
+        position: absolute;
+        width: 954px;
+        height: 170px;
+        left: 243px;
+        top: 800px;
+
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-size: 30px;
+        text-align: center;
+        line-height: 10px;
+        color: #000000;
+    }
+
+    .BorderForm{
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 768px;
+        height: 892px;
+        left: 336px;
+        top: 980px;
+        border: 5px solid #72262D;
+        border-radius: 20px;
+    }
+    
+    input,
+    select {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 40px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.25);
+        padding: 0 15px;
+        background-color: white;
+        font-size: 15px;
+    }
+
+    input:focus,
+    select:focus {
+        outline: #72262D;
+        box-shadow: inset 5px 5px 18px #e3e3e3, inset -5px -5px 18px #ffffff;
+    }
+
+    input:hover,
+    select:hover {
+        cursor: pointer;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: bolder;
+      }
+    
+    .FormNama{    
+        position: absolute;    
+        width: 680px;
+        height: 56px;
+        left: 365px;
+        top: 1020px;
+    }
+
+    .FormTelp{
+        position: absolute;
+        width: 680px;
+        height: 56px;
+        left: 365px;
+        top: 1150px;
+    }
+    
+    .FormPilihKelas{
+        position: absolute;
+        width: 710px;
+        height: 56px;
+        left: 365px;
+        top: 1280px;
+    }
+
+    .FormAlsan{
+        position: absolute;
+        width: 710px;
+        height: 56px;
+        left: 365px;
+        top: 1410px;
+    }
+
+    .FormKelebihan{
+        position: absolute;
+        width: 710px;
+        height: 56px;
+        left: 365px;
+        top: 1580px;
+    }
+
+    .Submit{
+        position: absolute;
+        background: #72262D;
+        color: white;
+        text-align: center;
+
+        font-size: 17px;
+        width: 166px;
+        height: 50px;
+        left: 637px;
+        top: 1780px;
+        
+        border-radius: 20px;
+        border: 0px;    
+    }
+
+    .LineHome2{
+        position: absolute;
+        width: 1289px;
+        height: 0px;
+        left: 76px;
+        top: 2000px;
+        background-color: #72262D;
+        border: 2px solid #72262D;
+    }
+    
+    .Metic{
+        position: absolute;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-size: 20px;
+        width: 954px;
+        height: 170px;
+        left: 243px;
+        top: 2000px;
+        text-align: center;
+        margin-top: auto;
+        color: #000000;
+    }
+
+    .LineHome3{
+        position: absolute;
+        width: 1289px;
+        height: 0px;
+        left: 76px;
+        top: 2450px;
+        background-color: #72262D;
+        border: 2px solid #72262D;
+    }
+
+    .HeaderKelas{
+        position: absolute;
+        width: 954px;
+        height: 170px;
+        left: 243px;
+        top: 2550px;
+
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-size: 30px;
+        text-align: center;
+        line-height: 10px;
+        color: #000000;
+    }
+
+    .box-container{
+        display:flex;
+        justify-content:space-between;
+    }
+     
+    .box-1,.box-2,.box-3{
+        width: 300px;
+        height:320px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow:2px 2px 18px rgba(79, 79, 79, 0.3);
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin: 2700px 40px;
+        border-radius: 20px;
+             
+    }
+    .box-1 span,
+    .box-2 span,
+    .box-3 span{
+        width:40px;
+        height:40px;
+        border-radius:50%;
+        color: #72262D;
+        background-color:#FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        font-family: 'Segoe UI';
+        font-size: 20px;
+        font-weight: bold;
+    }
+     
+    .box-1 p:nth-child(2),
+    .box-2 p:nth-child(2),
+    .box-3 p:nth-child(2){
+        color:#000000;
+        font-family: 'Segoe UI';
+        font-size: 23px;
+        line-height:0px;
+    }
+     
+    .box-1 p:nth-child(3),
+    .box-2 p:nth-child(3),
+    .box-3 p:nth-child(3){
+        font-family: 'Segoe UI';
+        color:#72262D;
+        text-align:center;
+        width: 230px;
+        margin:0px 0px 20px 0px;
+    }
+     
+    .box-1 button,
+    .box-2 button,
+    .box-3 button{
+        width:100px;
+        height:30px;
+        background-color:#FFFFFF;
+        border:none;
+        outline: none;
+        border-radius:5px;
+    }
+
+    .LineHome4{
+        position: absolute;
+        width: 1289px;
+        height: 0px;
+        left: 76px;
+        top: 3150px;
+        background-color: #72262D;
+        border: 2px solid #72262D;
+    }
+
+    .Credit{
+        position: absolute;
+        width: 710px;
+        height: 56px;
+        left: 365px;
+        top: 3500px;
+        text-align: center;
+
+        font-family:sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+
+        color: #000000;
+        
+    }
